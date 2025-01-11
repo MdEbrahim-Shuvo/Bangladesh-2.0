@@ -327,7 +327,7 @@ main {
     gap: 12px;
 }
 
-.post-text button, .donate-btn {
+.post-text button, .donate-btn, .newsletter-btn  {
     font-size: 18px;
     font-weight: 600;
     padding: 13px 26px;
@@ -413,3 +413,48 @@ main {
     text-transform: capitalize;
 }
 /*!===== donate section design end ======= */
+
+/* ? newsletter section design start */
+
+#newsletter-section {
+    height: 395px;
+    background-color: rgba(198, 228, 214, 1);
+    padding: 80px 100px;
+    border-radius: 24px;
+    margin: 0 0 80px 0;
+}
+
+.newsletter-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 750px;
+    text-align: center;
+    margin: 0 auto;
+}
+.newsletter-form {
+    display: flex;
+}
+
+.newsletter-form input[type=email] {
+    width: 600px;
+    height: 55px;
+    padding: 18px 40px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 8px 0 0 8px;
+    outline: 0;
+}
+
+.newsletter-form input[type=email]::placeholder {
+    text-align: left;
+    text-transform: none;
+}
+
+.newsletter-form input[type=submit] {
+    padding: 17px 34px;
+    border: none;
+    outline: 0;
+    border-radius: 0 8px 8px 0;
+}
