@@ -510,7 +510,7 @@ main {
     background-color: rgba(198, 228, 214, 1);
 }
 
-.donate-rate > button:nth-child(2n+1):hover:not(:nth-child(2)){
+.donate-rate > button:nth-child(n):hover:not(:nth-child(2)){
     background-color: rgba(198, 228, 214, 1);
 }
 
