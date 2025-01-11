@@ -87,6 +87,13 @@ main {
     border-radius: 8px;
     color: rgba(0, 106, 80, 1);
     border: 1px solid rgba(0, 106, 80, 1);
+    cursor: pointer;
+}
+
+.nav-bar .sign:hover {
+    background-color: rgba(0, 106, 80, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
 }
 
 /*!====== banner section design start ===== */
