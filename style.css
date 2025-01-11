@@ -88,6 +88,7 @@ main {
     color: rgba(0, 106, 80, 1);
     border: 1px solid rgba(0, 106, 80, 1);
     cursor: pointer;
+    transition: 0.5s ease-in-out;
 }
 
 .nav-bar .sign:hover {
