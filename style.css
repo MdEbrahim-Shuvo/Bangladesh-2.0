@@ -66,7 +66,7 @@ main {
     justify-content: space-between;
 }
 
-.nav-bar .logo {
+.nav-bar .logo, .footer-title {
     font-size: 32px;
     font-weight: 700;
     font-family: "Fira Sans", serif;
@@ -84,6 +84,8 @@ main {
     color: rgba(0, 106, 80, 1);
     border: 1px solid rgba(0, 106, 80, 1);
 }
+
+/* ?=== header section design end ==== */
 
 /*!====== banner section design start ===== */
 
@@ -458,3 +460,58 @@ main {
     outline: 0;
     border-radius: 0 8px 8px 0;
 }
+
+/*!===== newsletter section design end === */
+
+/*? ===== footer section design start ======== */
+
+#footer-bangladesh {
+    height: 226px;
+    background-color: rgba(255, 255, 255, 1);
+    
+}
+
+.footer-box {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 50px 160px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+
+}
+.footer-title {
+    text-align: center;
+}
+
+
+hr {
+    width: 100%;
+    color: rgba(14, 14, 14, 0.1);
+}
+
+.icon-box a {
+    text-decoration: none;
+}
+.icon-box a i {
+    font-size: 35px;
+    margin: 0 20px 0 0;
+}
+
+.fa-facebook {
+    color: rgb(49, 111, 246);
+}
+
+.fa-instagram {
+    color: rgb(212, 113, 1);
+}
+
+.fa-x-twitter {
+    color: rgb(0, 0, 0);
+}
+
+
+/* !===== footer section design end ====== */
